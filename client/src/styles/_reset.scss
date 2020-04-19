@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+button {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  border: none;
+  background-color: rgba(99, 255, 19, 0.49);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
